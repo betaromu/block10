@@ -1,0 +1,62 @@
+#canvas {
+    background-color: salmon;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#landscape {
+    background-color: black;
+    width: 90vmin;
+    height: 60vmin;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#box-upper {
+    width: 15vmin;
+    height: 15vmin;
+    background-color: cadetblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+#box-lower {
+    width: 5vmin;
+    height: 5vmin;
+    background-color: seagreen;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex end;
+    align-items: flex-start;
+    position: relative;
+}
+
+#circle
+{
+    height: 10%;
+    width: 10%;
+    border-radius: 50%;
+    background-color:white;
+    align-self: flex-start;
+    position: relative;
+    left: 10%;
+    top: 10%;
+    z-index: +1;
+}
+
+form {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+label {
+    margin: 5px;
+}
